@@ -24,3 +24,6 @@ def get_pair_number_from_color(major_color, minor_color):
   except ValueError:
     raise Exception('Minor index out of range')
   return major_index * len(MINOR_COLORS) + minor_index + 1
+
+def print_cable_color_coding():
+    return print('Telecom Cable Color Reference Table is below')
